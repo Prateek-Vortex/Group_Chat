@@ -43,7 +43,7 @@ FirebaseAuth.AuthStateListener mauthlist;
                FirebaseUser muser=mfire.getCurrentUser();
                if(muser!=null)
                {
-                   Toast.makeText(login.this, "you are logged in.", Toast.LENGTH_SHORT).show();
+                   Toast.makeText(login.this, "You are logged in.", Toast.LENGTH_SHORT).show();
                    Intent in=new Intent(login.this,MainActivity.class);
                    startActivity(in);
                }
@@ -71,7 +71,7 @@ FirebaseAuth.AuthStateListener mauthlist;
                 }
                 else if(email.isEmpty() && pass.isEmpty())
                 {
-                    Toast.makeText(login.this, "Please provide email and password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(login.this, "Please enter email id and password", Toast.LENGTH_SHORT).show();
                 }
                 else if(!(email.isEmpty() && pass.isEmpty()))
                 {
