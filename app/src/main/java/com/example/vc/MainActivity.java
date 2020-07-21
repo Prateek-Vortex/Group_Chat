@@ -84,10 +84,6 @@ public class MainActivity extends AppCompatActivity {
                 myRef = database.getReference("message");
                 myRef.setValue(s);
                 //i++;
-
-                //////////////////////////////////////////////////////////
-                //////////////////////////////////////////////////
-                /////////////////////////////////////////////////////////////
                 //TextView tvf=new TextView(MainActivity.this);
                 //tvf.setText();
 
